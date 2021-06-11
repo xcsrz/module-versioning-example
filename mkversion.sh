@@ -11,6 +11,7 @@ echo "Creating new version of ${1}"
 cd "components/${1}"
 start=$(ls | head -n 1)
 num=(${start:1})
+# there ought to be a better way to do this
 while true
 do
     num=$(($num+1))
