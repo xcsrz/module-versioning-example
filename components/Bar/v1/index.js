@@ -10,3 +10,5 @@ const Bar = (props) => {
 };
 
 export default Bar;
+
+
